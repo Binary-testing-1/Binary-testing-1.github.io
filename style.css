@@ -1,6 +1,9 @@
 /* style.css */
 body {
     font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
@@ -14,6 +17,7 @@ header {
 }
 
 .container {
+    flex: 1;
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
@@ -47,6 +51,7 @@ footer {
     color: white;
     text-align: center;
     padding: 10px 0;
+    flex-shrink: 0;
 }
 
 /* New styles for the menu */
